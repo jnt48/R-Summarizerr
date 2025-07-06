@@ -65,7 +65,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 
 # Load environment variables
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = "AIzaSyBu3T0jtto6RbO7GtL46_2HcH0xOT-keo8"
 
 # Configure Gemini API
 genai.configure(api_key=GOOGLE_API_KEY)
